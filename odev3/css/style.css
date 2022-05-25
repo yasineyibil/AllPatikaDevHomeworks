@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: brown;
+    font-style: italic;
+}
+
+.content {
+    margin: 3rem auto;
+    width: 60%;
+}
+
+.content div {
+    padding: 5px;
+}
+
+.content-text {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.content-header u {
+    margin-left: 3rem;
+}
+
+.color {
+    color: brown;
+    font-weight: 600;
+}
+
+.heading {
+    background-color: brown;
+    color: #fff;
+    border-radius: 1rem;
+}
+ul,ol{
+    margin-left: 3rem;
+}
+.afied {
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 15rem;
+    font-weight: bold;
+}
+@media (max-width:1100px) {
+    .afied {
+      margin-right: 0;
+    }
+  }
