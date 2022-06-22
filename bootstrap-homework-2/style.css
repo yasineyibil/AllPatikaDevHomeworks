@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: black;
+    height: 1000px;
+}
+
+.logo {
+    margin-left: 190px;
+}
+
+.search {
+    margin-left: 65px;
+    background-color: rgb(239, 239, 239);
+}
+
+::placeholder {
+    font-size: 14px;
+    color: gray;
+}
+
+ion-icon {
+    font-size: 28px;
+}
+
+.middlearea {
+    margin-top: 100px !important;
+}
+
+.card-header,
+.card-footer {
+    background-color: white;
+}
+
+.card-header~.card-body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+.comment-search {
+    width: 330px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.comment-search:focus {
+    border: none;
+    outline: none;
+}
+
+.post {
+    cursor: pointer;
+}
+
+.about {
+    font-size: 13px;
+}
+
+.right-side {
+    position: fixed;
+    right: 130px;
+    display: block;
+}
+
+.image-border {
+    padding: 2px;
+    border: 1px solid;
+    border-color: red;
+}
