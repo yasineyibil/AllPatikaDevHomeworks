@@ -35,7 +35,6 @@ const todoadd = (todovalue) => {
 
 function check() {
     this.classList.toggle("checked")
-    
 }
 
 
